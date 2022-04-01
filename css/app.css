@@ -1,0 +1,28 @@
+.card #rating {
+  display: inline;
+}
+
+.card #emoji {
+  float: right;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+}
+.navbar-collapse.in {
+  overflow-y: hidden;
+}
+tr.active {
+  color: green;
+}
+
+tr.processing {
+  color: yellow;
+}
+@media (max-width: 992px) {
+  .navbar .navbar-brand {
+    font-size: 18px;
+  }
+}
