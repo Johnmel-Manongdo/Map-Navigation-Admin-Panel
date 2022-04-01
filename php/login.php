@@ -32,7 +32,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 				$_SESSION['loggedIn'] = true;
 				$_SESSION['username'] = $row['user_name'];
 				$_SESSION['adminID'] = $row['adminID'];
-				header("Location: ../home.php");
+				header("Location: ../home.php?success=Welcome to PHINMA UPang Map Admin Panel");
 				exit();
 			} else {
 				header("Location: ../index.php?error=Incorrect Username or password");

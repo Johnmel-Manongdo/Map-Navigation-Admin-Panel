@@ -145,12 +145,20 @@
             <!--/ items that will participate in magic -->
 
             <div class="col-md-12 col-sm-12 pull-right-md text-right form-group">
-                <button class="btn btn-success" type="submit" name="updateEventBtn">UPDATE</button>
+                <button onclick="checker()" class="btn btn-success" type="submit" name="updateEventBtn">UPDATE</button>
             </div>
             <!-- this clearfix is nesesary -->
             <div class="clearfix"></div>
         </form>
     </div>
+    <script>
+    function checker() {
+        var result = confirm('Are you sure you want to update this event?');
+        if (result == false) {
+            event.preventDefault();
+        }
+    }
+    </script>
     <script>
     function logoutChecker() {
         var result = confirm('Are you sure you want to logout?');
