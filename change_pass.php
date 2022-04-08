@@ -36,7 +36,7 @@ body {
                 <div class="card border-0 shadow rounded-3 my-5">
                     <div class="card-body p-4 p-sm-5">
                         <img src="assets/img/logo.png" alt="logo" class="center" width="150px" height="150px">
-                        <h5 class="card-title text-center mb-5 fw-light fs-5">PHINMA UPang Navigation
+                        <h5 class="card-title text-center mb-5 fw-light fs-5">PHINMA UPang Navigation Map
                         </h5>
                         <?php if (isset($_GET['error'])) { ?> <div
                             class="alert alert-danger alert-dismissible fade show">
